@@ -25,8 +25,8 @@ def main():
                 return
         updatable.update(dt)
         screen.fill("black")
-        for i in drawable:
-            i.draw(screen)
+        for sprite in drawable:
+            sprite.draw(screen)
         display.flip() 
         dt = clock.tick(60) / 1000.0
 
