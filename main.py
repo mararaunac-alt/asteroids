@@ -24,6 +24,7 @@ def main():
         display.flip() 
         clock.tick(60)
         dt = clock.tick(60) / 1000.0
+        player.update(dt)
 
 
 
